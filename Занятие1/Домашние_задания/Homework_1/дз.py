@@ -39,5 +39,23 @@ print(sorted_list)
 
 
 text = ["php", "w3r", "Python", "abcd", "  Java "," aaa "]
-result = list(filter(lambda x: (x ==" ".join (reversed(x))), text))
+result = list(filter(lambda x: (x == " ".join(reversed(x))), text))
 print  (" Список палиндромов:", result)
+
+'''Задание 3.
+Напишите скрипт для извлечения года, месяца, даты и времени
+ с помощью Lambda. В реализации используйте модуль datetime.'''
+
+import datetime
+now = datetime.datetime.now()
+print(now)
+year = lambda x: x.year
+month = lambda x: x.month
+day = lambda x: x.day
+t = lambda x: x.time()
+print(year(now))
+print(month(now))
+print(day(now))
+print(t(now))
+
+
