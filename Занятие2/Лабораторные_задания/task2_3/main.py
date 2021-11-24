@@ -2,7 +2,7 @@ from itertools import count
 
 
 def pow_gen(base: int):
-    for i in count(0 , 1):
+    for i in count(0, 1):
         yield base ** i
   # TODO записать функцию-генератор
 
