@@ -4,7 +4,7 @@ def task():
     filename = "output.txt"
     with open(filename, "w", encoding="utf-8") as f:
         for word in list_words:
-            ...  # TODO с помощью метода write запишите построчно содержимое списка
+            f.writelines(f'{word}\n')
 
     with open(filename, "r", encoding="utf-8") as f:
         for line in f:

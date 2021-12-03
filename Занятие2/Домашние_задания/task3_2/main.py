@@ -8,6 +8,7 @@ def int_check(fn):
 
     return wrapper
 
+
 @int_check
 def print_args(*args):
     print(type(args), args)
