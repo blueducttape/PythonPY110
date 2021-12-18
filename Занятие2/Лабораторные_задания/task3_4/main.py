@@ -1,3 +1,5 @@
+"""Написать декоратор, сохраняющий результат в файл output.txt помимо возвращения."""
+
 def make_string_upper(fn):
     def wrapper():
         result = fn()

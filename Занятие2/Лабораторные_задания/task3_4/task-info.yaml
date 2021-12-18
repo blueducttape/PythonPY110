@@ -8,7 +8,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 130
+  - offset: 217
     length: 61
     placeholder_text: 'fn()  # TODO перевести результат исходной функции в верхний
       регистр'

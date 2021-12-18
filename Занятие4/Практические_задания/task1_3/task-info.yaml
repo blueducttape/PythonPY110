@@ -7,7 +7,7 @@ files:
   visible: true
   placeholders:
   - offset: 156
-    length: 17
+    length: 19
     placeholder_text: '...)  # TODO используйте запоминающие группы'
     initial_state:
       length: 44
@@ -36,7 +36,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Fri, 03 Dec 2021 07:48:31 UTC
+  time: Sat, 04 Dec 2021 11:27:33 UTC
   actual: |
-    [('gmail', 'com'), ('test', 'in'), ('analyticsvidhya', 'com'), ('rest', 'biz')]
+    [('@', 'gmail', 'com'), ('@', 'test', 'in'), ('@', 'analyticsvidhya', 'com'), ('@', 'rest', 'biz')]
 record: -1
