@@ -1,4 +1,5 @@
 
+
 if __name__ == "__main__":
     list_= []
     with open('list1.txt') as f:

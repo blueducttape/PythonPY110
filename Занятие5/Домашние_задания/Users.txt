@@ -1,0 +1,41 @@
+{
+    "name": "Геласий",
+    "surename": "Охотин",
+    "login": "@alternatively_suites",
+    "password": "{&g.e\"2*",
+    "email": "portland1909@yahoo.com",
+    "phone": "+7-(972)-550-90-13",
+    "register_time": "2021-12-21T20:43:42.095201"
+}{
+    "name": "Генриетта",
+    "surename": "Пильняк",
+    "login": "@foam_kings",
+    "password": "{>iDty[b",
+    "email": "stability2034@yahoo.com",
+    "phone": "+7-(918)-888-31-69",
+    "register_time": "2021-12-21T20:43:42.095201"
+}{
+    "name": "Лаврентий",
+    "surename": "Крупнов",
+    "login": "@rows_copper",
+    "password": "kxZne(#3",
+    "email": "cry2009@protonmail.com",
+    "phone": "+7-(968)-139-58-48",
+    "register_time": "2021-12-21T20:43:42.095201"
+}{
+    "name": "Лариса",
+    "surename": "Первушин",
+    "login": "@uncle_breast",
+    "password": "=9IJguPT",
+    "email": "dietary1908@outlook.com",
+    "phone": "+7-(934)-701-21-85",
+    "register_time": "2021-12-21T20:43:42.095201"
+}{
+    "name": "Иван",
+    "surename": "Василев",
+    "login": "@vessels_patrol",
+    "password": "5r%`0>Wq",
+    "email": "annually1836@protonmail.com",
+    "phone": "+7-(961)-249-64-05",
+    "register_time": "2021-12-21T20:43:42.095201"
+}

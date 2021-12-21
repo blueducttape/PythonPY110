@@ -23,7 +23,39 @@ def sym(fn):
     print(data)
 
 
+"""
+Написать генератор, возвращающий по одному слову текстового файла,
+при этом не загружая в память весь файл.
+В качестве разделителя слов использовать символ пробела.
+"""
+
+
+def get_words_from_file(file_name: str, separator=' ') -> str:
+    with open("words.txt" ,'r') as f:
+        while f:
+            line = str.split(f.readline(), sep=separator)
+            iter_line = iter(line)
+            i = 0
+            while i < len(line):
+                yield next(iter_line)
+                i += 1
+
+
+"""
+Написать генератор, возвращающий по одной
+строке из текстового файла. Символом окончания строки является символ “\n”.
+Встроенной реализацией пользоваться нельзя.
+"""
+
+def get_lines_from_file(file_name: str) -> str:
+    with open(file_name,'r') as f:
+        while f:
+            yield f.readline()
+
+
+
 if __name__ == "__main__":
-    get_text("Hello, World!!!")
-    get_text("fhgnk")
-    get_text("Hello, World!!!")
+    print(get_text("Hello, World!!!"))
+    print(get_text("fhgnk"))
+    print(get_text("Hello, World!!!"))
+    print(get_words_from_file("words.txt", separator = ' '))
